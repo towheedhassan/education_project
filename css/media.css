@@ -1,0 +1,195 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .menu ul li a {
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 25px;
+        color: rgb(255, 255, 255) !important;
+        padding: 0px 0px !important;
+    }
+    .menu ul li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .d_user_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+    }
+    .d_search_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+        padding: 20px;
+    }
+    .d_search_menu input {
+        width: 200px;
+        padding: 0 5px;
+    }
+    .b_content h1 {
+        margin-top: 80px;
+        margin-bottom: 90px;
+        font-size: 33px;
+    }
+    .scroll p {
+        font-size: 16px;
+    }
+    .scroll i {
+        font-size: 20px;
+    }
+    .kid1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .c_c_content h2 {
+        font-size: 25px;
+    }
+    .c_c_content p {
+        font-size: 14px;
+    }
+    .k1img {
+        margin-bottom: 20px;
+    }
+    .dis_btn {
+    width: 135px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu ul li a {
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 25px;
+        color: rgb(255, 255, 255) !important;
+        padding: 0px 0px !important;
+    }
+    .menu ul li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .d_user_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+    }
+    .d_search_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+        padding: 20px;
+    }
+    .b_content h1 {
+        margin-top: 100px;
+        margin-bottom: 110px;
+        font-size: 38px;
+    }
+    .scroll p {
+        font-size: 16px;
+    }
+    .scroll i {
+        font-size: 20px;
+    }
+    .kid1 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .c_c_content h2 {
+        font-size: 25px;
+    }
+    .k1img {
+        margin-bottom: 20px;
+    }
+    .dis_btn {
+    width: 135px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a {
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 25px;
+        color: rgb(255, 255, 255) !important;
+        padding: 0px 0px !important;
+    }
+    .menu ul li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .d_user_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+    }
+    .d_search_menu {
+        background-color: #ffd338;
+        top: 40px;
+        left: 10px;
+        padding: 20px;
+    }
+    .b_content h1 {
+        margin-top: 130px;
+        margin-bottom: 140px;
+    }
+    .kid1 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .k1img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .dis_btn {
+        width: 135px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .d_user_menu {
+        top: 60px;
+        left: -120px;
+    }
+    .d_search_menu {
+        top: 60px;
+        left: -336px;
+    }
+    .b_content h1 {
+        margin-top: 180px;
+        margin-bottom: 190px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .d_user_menu {
+        top: 61px;
+        left: -120px;
+    }
+    .d_search_menu {
+        top: 61px;
+        left: -338px;
+    }
+    .b_content h1 {
+        margin-top: 240px;
+        margin-bottom: 250px;
+    }
+}
+
+/*Extra extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .d_user_menu {
+        top: 63px;
+        left: -120px;
+    }
+    .d_search_menu {
+        top: 63px;
+        left: -332px;
+    }
+    .k1_img {
+        border-radius: 15px;
+        width: 100%;
+    }
+}
